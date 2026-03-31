@@ -2,7 +2,7 @@
 
 $servidor = "localhost";
 $usuario = "postgres";
-$clave = "";
+$clave = "tu_contraseña_de_PostgreSQL";
 $bd = "keras_db";
 
 $conexion = pg_connect("host=$servidor dbname=$bd user=$usuario password=$clave");
